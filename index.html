@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Formulário de Registro</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content=" Formulário de Registro Responsivo "
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content=" Formulário, Registro, Cadastro, Online
+ "
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta name="author" content="Larissa de Oliveira Santos" />
+    <link rel="shortcut icon" href="img/icone.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+<section class="container">
+    <header>
+        <h1>Formulário de Registro</h1>
+    </header>
+    <form class="form">
+        <!-- Informações Pessoais -->
+        <div class="input-box">
+            <label>Nome Completo</label>
+            <input type="text" placeholder="Digite seu nome" required>
+        </div>
+
+                <div class="input-box">
+            <label>E-mail</label>
+            <input type="email" placeholder="Digite seu e-mail" required>
+        </div>
+
+        <div class="column">
+                    <div class="input-box">
+            <label>Número de Telefone</label>
+            <input type="text" placeholder="Digite o número do seu telefone" required>
+        </div>
+                <div class="input-box">
+            <label>Data de Nascimento</label>
+            <input type="date" required>
+        </div>
+        </div>
+<!-- Gênero -->
+        <div class="gender-box">
+            <h3>Gênero</h3>
+            <div class="gender-option">
+                <div class="gender">
+                    <input type="radio" name="gender" id="check-male">
+                    <label for="check-male">Homem</label>
+                </div>
+                 <div class="gender">
+                    <input type="radio" name="gender" id="check-female">
+                    <label for="check-female">Mulher</label>
+                </div>
+                 <div class="gender">
+                    <input type="radio" name="gender" id="check-other">
+                    <label for="check-other">Prefiro não informar</label>
+                </div>
+            </div>
+        </div>
+<!-- Endereço -->
+        <div class="input-box address">
+            <label>Endereço</label>
+            <input type="text" placeholder="Digite o nome da rua" required>
+            <input type="text" placeholder="Digite o número de sua casa" required>
+            <div class="column">
+                <div class="select-box">
+                    <select >
+                        <option hidden>País</option>
+                        <option>Brasil</option>
+                        <option>Chile</option>
+                        <option>Peru</option>
+                        <option>Uruguai</option>
+                    </select>
+                </div>
+                            <input type="text" placeholder="Digite sua cidade" required>
+                </div>
+    
+               <div class="column">
+            <input type="text" placeholder="Digite sua região" required>
+            <input type="text" placeholder="Digite o CEP" required>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+  </body>
+</html>
