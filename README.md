@@ -1,6 +1,5 @@
 # 📝 Formulário de Registro Responsivo
 
-## 📌 Descrição do Projeto
 Projeto de um **formulário de registro online responsivo**, desenvolvido com **HTML e CSS**, que coleta informações pessoais, gênero e endereço do usuário. O design é moderno, intuitivo e totalmente adaptável para dispositivos móveis.
 
 O objetivo é praticar **design responsivo**, **flexbox**, **estilização com CSS moderno** e organização de formulários de forma acessível.
@@ -17,7 +16,8 @@ O objetivo é praticar **design responsivo**, **flexbox**, **estilização com C
 - *HTML5*  
 - *CSS3*  
 
-## 🔖 **Observação:** Este projeto **não possui integração com JavaScript ou backend**. Ele foi desenvolvido **apenas para fins de realização de atividade de HTML e CSS**, focando em estrutura, layout e estilização.
+## 📌 Observação
+- Este projeto **não possui integração com JavaScript ou backend**. Ele foi desenvolvido **apenas para fins de realização de atividade de HTML e CSS**, focando em estrutura, layout e estilização.
 
 
 ## 👀 Como Visualizar  
