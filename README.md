@@ -27,4 +27,3 @@ O objetivo é praticar **design responsivo**, **flexbox**, **estilização com C
 ```bash
 https://larissasantos2.github.io/register-form/
 
-
